@@ -6,7 +6,5 @@ class natural {
         int a = sc.nextInt();
         int sum = (a*(a+1))/2;
         System.out.println(sum);
-
     }
-    
 }
