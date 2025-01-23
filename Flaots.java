@@ -1,7 +1,11 @@
+import java.util.Scanner;
 class Floats{
     public  static void main(String [] args){
-        double A = 31.12;
-        double B = 31.12;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number A:");
+        double A = sc.nextDouble();
+        System.out.println("Enter the number B:");
+        double B = sc.nextDouble();
 
         A  = Math.round(A*1000.0)/1000.0;
         B  = Math.round(B*1000.0)/1000.0;
